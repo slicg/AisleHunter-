@@ -1,0 +1,92 @@
+body {
+  padding: 50px;
+  font: 16px "American Typewriter",serif;
+  background-color: rgb(100,100,100,10);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg2.jpg);
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+/**********************************\
+Box Centering
+\**********************************/
+.outer {
+  display: table;
+  position: absolute;
+  height: 80%;
+  width: 95%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+li {
+	list-style: none;
+}
+.itembutton {
+	width: 26%;
+	padding: 20px;
+	border: none;
+	text-align: none;
+	background-color:darkorange;
+	text-decoration: none;
+}
+
+.subdiv {
+	display: inline-block;
+	flex: 1;
+	height: 70px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.itembutton:hover {
+	background-color:darkgrey;
+}
+
+.itemlabel {
+	color: white;
+}
+
+.locationsubdiv{
+	display: inline-block;
+	margin: 0 auto;
+	width: 40%;
+}
+
+.locationsubdiv#tags{
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.locationsubdiv#info{
+	background-color: rgb(255, 100, 0, 0.5);
+}
+
+img.toplogo {
+  display:block;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+a.homelink {
+  display:block;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 90%;
+}
+//7186705790 - melissa
